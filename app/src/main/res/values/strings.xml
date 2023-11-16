@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SberUltraMarket</string>
+    <string name="delivery">Deliver right to the house</string>
+    <string name="pickup">Pickup from market</string>
+    <string name="shop_name">Capybara shop</string>
+    <string name="get_products">Get capybara products list</string>
+    <string name="send_order">Send order to capybara delivery</string>
+    <string name="order_type">Choose, how do you want to receive the order</string>
+    <string name="fetch_error">Error fetching groceries data</string>
+    <string name="details_not_chosen">Choose order type and positions</string>
+    <string name="fetching_process">Fetching...</string>
+    <string name="order_details">order_details</string>
+    <string name="order_positions">order_positions</string>
+    <string name="order_info">Order info</string>
+</resources>
