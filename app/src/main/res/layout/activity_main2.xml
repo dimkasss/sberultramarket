@@ -14,6 +14,20 @@
         android:text="Back to main page"
         >
     </Button>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/send_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send order info through email">
+    </Button>
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter email address">
+    </EditText>
     <TextView
         android:gravity="center"
         android:layout_width="match_parent"

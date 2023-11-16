@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TableLayout;
@@ -56,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
         if (data != null) {
             TableRow tableRow = new TableRow(this);
             tableRow.setPadding(0, 20, 0, 0);
-            Button button = new Button(this);
-            button.setText(getResources().getString(R.string.send_order));
-            button.setOnClickListener(view -> {
+            Button button1 = new Button(this);
+            button1.setText(getResources().getString(R.string.send_order));
+            button1.setOnClickListener(view -> {
                 setOrderInfo();
                 Log.d("ORDER_DETAILS_TYPE", "aboba" + orderDetails.type);
                 Log.d("ORDER_DETAILS_POSITIONS", "aboba" + orderDetails.positions);
@@ -82,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 orderDetails.positions = new ArrayList<>();
             });
             tableRow.addView(new TextView(this));
-            tableRow.addView(button);
+            tableRow.addView(button1);
             groceriesList.addView(tableRow);
             for( int i = 0; i < data.size(); i++)
             {

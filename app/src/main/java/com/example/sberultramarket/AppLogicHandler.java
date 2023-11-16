@@ -29,7 +29,8 @@ import java.util.concurrent.Future;
 
 
 class AppLogicHandler {
-    public static JSONArray getProductsList() throws Exception {
+    public static JSONArray getProductsList()
+    {
         ExecutorService executor = Executors.newSingleThreadExecutor();
         Future<JSONArray> data = executor.submit(() -> {
             try {
